@@ -1,0 +1,171 @@
+body {
+  color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.629rem;
+  /*100% = 16px = 1em, 1rem means ignore parent fontsize*/
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 1;
+
+}
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat"; san-sarif;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copy {
+  color: #EAF6F6;
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+div {
+
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #CEE5D0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.opensap {
+  color: #3B9AE1;
+}
+
+.opensap:hover {
+  color: #D36B00;
+}
+
+.devicon {
+
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.pro {
+  text-decoration: underline;
+  text-decoration-color: #FEC260;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.skills {
+  margin: 0 auto 70px auto;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #D7FBE8;
+  height: 100%;
+  width: 100%;
+}
+
+.birds {
+  position: absolute;
+  width: 150px;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px
+}
+
+.bottom-cloud {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
+}
+
+.mountain {
+  width: 800px;
+}
+
+.top-cloud {
+  width: 150px;
+  height: 70px;
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+
+
+.buttonClass {
+  font-size:20px;
+  font-family:Arial;
+  width:171px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(253, 255, 253, 1);
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  background: #66BFBF;
+  margin-bottom: 30px;
+}
+
+.buttonClass:hover {
+  background: rgba(43, 196, 173, 1)
+}
